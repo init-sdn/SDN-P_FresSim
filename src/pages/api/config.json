@@ -1,0 +1,76 @@
+{
+    "_comment_API_URL": "API URLs", 
+    "ELEVATION_API_URL_GOOGLE": "https://maps.googleapis.com/maps/api/elevation/json?",
+    "ELEVATION_API_URL_BING": "http://dev.virtualearth.net/REST/v1/Elevation/List?",
+    "ELEVATION_API_URL_OPEN_METEO": "https://api.open-meteo.com/v1/elevation?",
+    "ELEVATION_API_URL_OPEN_TOPO":"http://155.210.68.78:5000/v1/srtm30m?",
+
+    "comment_API_ID": "API identifiers",
+    "AVAILABLE_APIS": ["open-topo", "google", "bing", "open-meteo"],
+    "GOOGLE_API_ID": "google",
+    "BING_API_ID": "bing",
+    "OPEN_METEO_API_ID": "open-meteo",
+    "OPEN_TOPO_API_ID": "open-topo",
+
+    "_comment_generator_modes": "Coverge map generator modes",
+    "AVAILABLE_GENERATOR_MODES": ["speed","precision"],
+    "GENERATOR_MODE_SPEED": "speed",
+    "GENERATOR_MODE_URL_SPEED": "/fressim/api/check-coverage-speed",
+    "GENERATOR_MODE_PRECISION": "precision",
+    "GENERATOR_MODE_URL_PRECISION": "/fressim/api/check-coverage-precision",
+
+    "_comment_API_params_general": "General values for elevations API requests",
+    "ELEVATION_POINTS": 60,
+    "DEFAULT_ALTITUDE": 100,
+    "TIMEOUT": 15000,
+
+    "_comment_API_params_open_meteo": "Parameters for Open-Meteo API requests",
+    "OPEN_METEO_MAX_POINTS_PER_BATCH": 100,
+    "OPEN_METEO_DELAY_BETWEEN_REQUESTS_MS": 100,
+
+    "_comment_API_params_google": "Parameters for Google API requests",
+    "GOOGLE_MAX_POINTS_PER_BATCH": 512,
+
+    "_comment_API_params_bing": "Parameters for Bing API requests",
+    "BING_MAX_POINTS_PER_BATCH": 1024,
+    "BING_DELAY_BETWEEN_REQUESTS_MS": 210,
+    "BING_MAX_RETRIES": 3,
+
+    "_comment_API_params_open_topo": "Parameters for Open-Topo API requests",
+    "OPEN_TOPO_MAX_POINTS_PER_BATCH": 2000,
+    "OPEN_TOPO_DELAY_BETWEEN_REQUESTS_MS": 1,
+  
+    "_comment_comms_percentajes": "Communication percentajes [from,to]",
+    "FULL_COMMUNICATION_PERCENTAGE": [0,30],
+    "POOR_COMMUNICATION_PERCENTAGE": [30,40],
+    "NO_COMMUNICATION_PERCENTAGE": 40,
+    "ASSURED_COMMUNICATION_RADIUS": 200,
+  
+    "_comment_colors": "Grid sectors colors",
+    "FULL_COMMUNICATION_COLOR": "green",
+    "POOR_COMMUNICATION_COLOR": "yellow",
+    "NO_COMMUNICATION_COLOR": "red",
+    "NULL_COMMUNICATION_COLOR": "transparent",
+  
+    "_comment_grid": "Grid generator parameters",
+    "AVAILABLE_RATIOS":[[1000,50],[1000,100],[5000,50],[5000,100],[10000,100],[10000,500],[20000,100],[20000,500],[20000,1000],[50000,100],[50000,500],[50000,1000]],
+    "DEFAULT_NODE_GROUND_ELEVATION": 2,
+  
+    "_comment_comparation_params": "Comparsion algorithm parameters",
+    "MID_GRID_SIZE": 5000,
+    "LARGE_GRID_SIZE": 10000,
+    "SMALL_SIZE_DIVISOR": 4,
+    "MID_SIZE_DIVISOR": 2,
+    "LARGE_SIZE_DIVISOR": 1,
+
+    "_comment_simulation_params": "Simulation parameters",
+    "EARTH_RADIUS": 6371e3,
+    "LORA_FREQUENCY_MHZ": 868,
+    "SPEED_OF_LIGHT": 3e8,
+    "MHZ_TO_HZ": 1e6,
+
+    "_comment_server_processing": "Server processing parameters",
+    "CHUNK_SIZE": 400
+
+    }
+    

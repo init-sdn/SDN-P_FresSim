@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@builder.io/partytown": "^0.10.2",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@googlemaps/google-maps-services-js": "^3.4.0",
+    "@googlemaps/polyline-codec": "^1.0.28",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "chartjs-plugin-annotation": "^3.0.1",
+    "copy-webpack-plugin": "12.0.2",
+    "jszip": "^3.10.1",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.2.7",
+    "next-connect": "^0.12.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-leaflet": "^4.2.1",
+    "sass": "^1.69.5",
+    "uuid": "^10.0.0",
+    "web-vitals": "^4.2.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "22.5.2",
+    "@types/react": "18.3.5",
+    "typescript": "5.5.4"
+  }
+}
